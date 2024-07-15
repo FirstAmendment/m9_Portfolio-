@@ -50,6 +50,14 @@ h1,h2,p {
   }
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+}
+
+.button-container button {
+  margin: 0 5px; /* Optional: Add spacing between buttons */
+}
 
 /* CSS */
 .button-49,
@@ -171,6 +179,7 @@ h1,h2,p {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  align-items: center;
 }
 
 .button-50:after {
